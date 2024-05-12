@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@100;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titan+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="/index.html">Página Principal</a></li><br><br>
+                <li><a href="/sobre.html">Sobre a Clínica</a></li><br><br>
+                <li><a href="/horario.html">Horário de Atendimento</a></li><br><br>
+                <li><a href="/contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <div id="contact-banner-img">
+                    <img src="/assets/contato.png" width="400">
+                </div>
+            </div>
+
+            <div class="content">
+                <h1><strong>Entre em contato conosco:</strong></h1>
+                <ul id="contact-list">
+                    <li><strong>Telefone:</strong> (31)3333-3333</li>
+                    <li><strong>WhatsApp:</strong> (31)91234-5678</li>
+                    <li><strong>Endereço:</strong> Rua Qualquer, 333, Bairro Qualquer - Belo Horizonte, Minas Gerais
+                    </li>
+                </ul>
+                <p>
+                   <strong>Nos encontre no mapa!</strong>
+                </p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120039.87244621762!2d-44.031154661496544!3d-19.914035194911676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697512d0946a9%3A0xbea962c689927462!2sBelo%20Horizonte%2C%20State%20of%20Minas%20Gerais!5e0!3m2!1sen!2sbr!4v1713966057122!5m2!1sen!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <h2>
+                    Preencha seus dados para contato:
+                </h2>
+
+                <form action="#">
+                    <fieldset>
+                        <legend>Dados pessoais</legend><br>
+                        <label for="name">Nome:</label>
+                        <input type="text" name="name" id="name"> <br> <br>
+
+                        <label for="email">E-mail:</label> 
+                        <input type="email" name="email" id="email"> <br> <br>
+                    </fieldset> <br>
+
+                    <fieldset>
+                        <legend>Mensagem</legend> <br>
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" name="assunto" id="assunto"> <br><br>
+                        
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea> <br> <br>
+                    </fieldset> <br>
+
+                    <button type="reset">Limpar formulário</button>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+
+
+            <div class="footer">
+                <p id="copyright-footer">
+                    &copy; Instituto da Criança - 2024
+                </p>
+                <p id="footer-contact">
+                    <strong>Entre em contato conosco:</strong>
+                <ul id="contact-footer-list">
+                    <li><strong>Telefone:</strong> (31)3333-3333 </li>
+                    <li><strong>E-mail:</strong> institutodacrianca@email.com</li>
+                    <li><strong>Endereço:</strong> Rua Qualquer, 333, Bairro Qualquer - Belo Horizonte, Minas Gerais
+                    </li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

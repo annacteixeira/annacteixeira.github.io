@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+:root {
+    --header-footer-color: #ee9bc9;
+    --menu-color: #b46693;
+    --contact-banner-color: #f5f0f5;
+}
+
+a {
+    color: #fff9f9;
+    font-weight: 600;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: var(--menu-color);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: var(--menu-color);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: var(--header-footer-color);
+    min-height: 150px;
+    text-align: center;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: var(--header-footer-color);
+    min-height: 150px;
+}
+
+#footer-contact,
+#contact-footer-list {
+    padding-left: 40px;
+    text-align: justify;
+}
+
+#copyright-footer {
+    font-weight: 900;
+}
+
+#content-page-video {
+    border-radius: 15px;
+}
+
+#sobre-content-img {
+    border-radius: 15px;
+}
+
+#schedule-table {
+    margin: auto;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+
+#general-clinic-description,
+#psychology-description,
+#pediatrics-description,
+#ophtalmology-description {
+    text-align: justify;
+}
+
+#table-title {
+    font-weight: 700;
+}
+
+#contact-banner-img {
+    background-color: var(--contact-banner-color);
+}
+
+
+#contact-list {
+    text-align: justify;
+}
+
+iframe {
+    border-radius: 30px;
+}
+
+h2 {
+    text-align: justify;
+}
+
+fieldset {
+    border-radius: 10px;
+}
+form {
+    text-align: justify;
+}
+
+#mensagem {
+    text-align: center;
+}
+button {
+    margin-right: 15px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #ee9bc9;
+}
